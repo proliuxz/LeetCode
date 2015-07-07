@@ -2,20 +2,20 @@ package solution021to030;
 
 public class Solution26
 {
-	public int removeDuplicates(int[] A)
+	public int removeDuplicates(int[] nums)
 	{
-		if (A.length==0)
+		if (nums.length==0)
 			return 0;
-		if (A.length==1)
+		if (nums.length==1)
 			return 1;
 		int count = 1;
-		for (int i = 0 ; i < A.length-1;i++)
+		for (int i = 0 ; i < nums.length-1;i++)
 		{
-			if(A[i]==A[i+1])
+			if(nums[i]==nums[i+1])
 				continue;
 			else
 			{
-				A[count] = A[i+1];
+				nums[count] = nums[i+1];
 				count++;
 			}
 		}

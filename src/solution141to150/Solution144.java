@@ -3,6 +3,8 @@ package solution141to150;
 import java.util.ArrayList;
 import java.util.List;
 
+import Util.TreeNode;
+
 public class Solution144
 {
 	public List<Integer> preorderTraversal(TreeNode root)
@@ -25,16 +27,4 @@ public class Solution144
 		System.out.println(s144.preorderTraversal(root));
 	}
 
-}
-
-class TreeNode
-{
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int x)
-	{
-		val = x;
-	}
 }

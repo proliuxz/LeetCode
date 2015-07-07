@@ -1,5 +1,7 @@
 package solution101to110;
 
+import Util.TreeNode;
+
 
 public class Solution104
 {
@@ -26,16 +28,4 @@ public class Solution104
 		System.out.println(s104.maxDepth(root));
 	}
 
-}
-
-class TreeNode
-{
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int x)
-	{
-		val = x;
-	}
 }

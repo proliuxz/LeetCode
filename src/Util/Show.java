@@ -1,0 +1,59 @@
+package Util;
+
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Show
+{
+	public static void showArray(int[] array)
+	{
+		if (array.length==0||array==null)
+			System.out.println("null");
+		for (int i = 0 ; i < array.length;i++)
+			System.out.println(array[i]);
+	}
+	
+	public static void showListInt(List<Integer> list)
+	{
+		if (list.size()==0||list==null)
+			System.out.println("null");
+		for (int i = 0 ; i < list.size();i++)
+			System.out.print(list.get(i)+", ");
+	}
+	
+	public static void showListString(List<String> list)
+	{
+		if (list.size()==0||list==null)
+			System.out.println("null");
+		for (int i = 0 ; i < list.size();i++)
+			System.out.print(list.get(i)+", ");
+	}
+	
+	public static void showListListInt(List<List<Integer>> list)
+	{
+		if (list.size()==0||list==null)
+			System.out.println("null");
+		for (int i = 0 ; i < list.size();i++)
+		{
+			showListInt(list.get(i));
+			System.out.println();
+		}
+	}
+	
+	public static void showListChar(List<Charset> list)
+	{
+		if (list.size()==0||list==null)
+			System.out.println("null");
+		for (int i = 0 ; i < list.size();i++)
+			System.out.print(list.get(i)+", ");
+	}
+	public static void showListListChar(List<List<Charset>> list)
+	{
+		if (list.size()==0||list==null)
+			System.out.println("null");
+		for (int i = 0 ; i < list.size();i++)
+			showListChar(list.get(i));
+	}
+
+}
