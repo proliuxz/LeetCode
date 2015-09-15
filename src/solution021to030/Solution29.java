@@ -4,25 +4,41 @@ public class Solution29
 {
 	public int divide(int dividend, int divisor)
 	{
-		long a = Math.abs((long)dividend);  
-        long b = Math.abs((long)divisor);
-        long res = 0;  
-			  while(a >= b)  
-		        {  
-		            long c = b;  
-		            for(int i = 0; a >= c; i++, c <<=1)  
-		            {  
-		                a -= c;  
-		                res += 1<<i;  
-		            }  
-		        }  
-		        return ((((dividend^divisor)>>31)<0) ? ((int) -res) : ((int) res));  
+		 if(divisor==0) return Integer.MAX_VALUE;
+		    if(divisor==-1 && dividend == Integer.MIN_VALUE)
+		        return Integer.MAX_VALUE;
+		 
+		    //get positive values
+		    long pDividend = Math.abs((long)dividend);
+		    long pDivisor = Math.abs((long)divisor);
+		 
+		    int result = 0;
+		    while(pDividend>=pDivisor){
+		        //calculate number of left shifts
+		        int numShift = 0;    
+		        while(pDividend>=(pDivisor<<numShift)){
+		            numShift++;
+		        }
+		 
+		        //dividend minus the largest shifted divisor
+		        result += 1<<(numShift-1);
+		        pDividend -= (pDivisor<<(numShift-1));
+		    }
+		 
+		    if((dividend>0 && divisor>0) || (dividend<0 && divisor<0)){
+		        return result;
+		    }else{
+		        return -result;
+		    }
 	}
 
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-
+		int dividend = 100;
+		int divisor = 10;
+		Solution29 s29 = new Solution29();
+		System.out.println(s29.divide(dividend, divisor));
 	}
 
 }
