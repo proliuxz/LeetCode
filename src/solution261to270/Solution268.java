@@ -9,7 +9,6 @@ package solution261to270;
  */
 public class Solution268 {
     public int missingNumber(int[] nums) {
-        int result = 0;
-        return result;
+        return 0;
     }
 }
