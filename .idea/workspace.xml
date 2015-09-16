@@ -1,7 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed338ffb-5454-47d8-94a8-9e8c10c03e15" name="Default" comment="" />
+    <list default="true" id="ed338ffb-5454-47d8-94a8-9e8c10c03e15" name="Default" comment="lxz&#10;&#10;1731&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solution231to240/Solution234.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solution261to270/Solution268.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solution271to280/Solution278.java" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\Util\Interval.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\Util\Show.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution001to010\Solution6.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution001to010\Solution8.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution021to030\Solution22.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution021to030\Solution25.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution021to030\Solution27.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution021to030\Solution28.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution021to030\Solution30.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution041to050\Solution42.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution041to050\Solution48.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution051to060\Solution53.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution061to070\Solution62.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution061to070\Solution70.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution081to090\Solution81.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution081to090\Solution82.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution081to090\Solution83.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution081to090\Solution88.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution081to090\Solution90.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution091to100\Solution94.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution091to100\Solution95.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution091to100\Solution96.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution101to110\Solution102.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution101to110\Solution104.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution101to110\Solution108.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution101to110\Solution109.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution121to130\Solution121.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution121to130\Solution122.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution121to130\Solution128.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution131to140\Solution137.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution141to150\Solution141.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution141to150\Solution144.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution161to170\Solution162.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution191to200\Solution198.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution201to210\Solution202.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution211to220\Solution215.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution221to230\Solution226.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\LeetCode\bin\solution221to230\Solution228.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Util/ListNode.class" afterPath="$PROJECT_DIR$/bin/Util/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/ListNode.class" afterPath="$PROJECT_DIR$/bin/solution001to010/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/ListNode.class" afterPath="$PROJECT_DIR$/bin/solution011to020/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/ListNode.class" afterPath="$PROJECT_DIR$/bin/solution021to030/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution141to150/ListNode.class" afterPath="$PROJECT_DIR$/bin/solution141to150/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution1.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution10.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution091to100/Solution100.class" afterPath="$PROJECT_DIR$/bin/solution091to100/Solution100.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution101to110/Solution101.class" afterPath="$PROJECT_DIR$/bin/solution101to110/Solution101.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution101to110/Solution106.class" afterPath="$PROJECT_DIR$/bin/solution101to110/Solution106.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution11.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution101to110/Solution110.class" afterPath="$PROJECT_DIR$/bin/solution101to110/Solution110.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution111.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution111.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution112.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution112.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution114.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution114.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution116.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution116.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution117.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution117.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution118.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution118.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution119.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution119.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution12.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution111to120/Solution120.class" afterPath="$PROJECT_DIR$/bin/solution111to120/Solution120.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution121to130/Solution129.class" afterPath="$PROJECT_DIR$/bin/solution121to130/Solution129.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution13.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution131to140/Solution136.class" afterPath="$PROJECT_DIR$/bin/solution131to140/Solution136.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution14.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution141to150/Solution142.class" afterPath="$PROJECT_DIR$/bin/solution141to150/Solution142.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution141to150/Solution145.class" afterPath="$PROJECT_DIR$/bin/solution141to150/Solution145.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution15.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution151to160/Solution153.class" afterPath="$PROJECT_DIR$/bin/solution151to160/Solution153.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution151to160/Solution154.class" afterPath="$PROJECT_DIR$/bin/solution151to160/Solution154.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution151to160/Solution155.class" afterPath="$PROJECT_DIR$/bin/solution151to160/Solution155.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution16.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution151to160/Solution160.class" afterPath="$PROJECT_DIR$/bin/solution151to160/Solution160.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution161to170/Solution169.class" afterPath="$PROJECT_DIR$/bin/solution161to170/Solution169.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution17.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution171to180/Solution171.class" afterPath="$PROJECT_DIR$/bin/solution171to180/Solution171.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution171to180/Solution172.class" afterPath="$PROJECT_DIR$/bin/solution171to180/Solution172.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution171to180/Solution173.class" afterPath="$PROJECT_DIR$/bin/solution171to180/Solution173.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution18.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution19.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution181to190/Solution190.class" afterPath="$PROJECT_DIR$/bin/solution181to190/Solution190.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution191to200/Solution191.class" afterPath="$PROJECT_DIR$/bin/solution191to200/Solution191.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution2.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution011to020/Solution20.class" afterPath="$PROJECT_DIR$/bin/solution011to020/Solution20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution201to210/Solution204.class" afterPath="$PROJECT_DIR$/bin/solution201to210/Solution204.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution201to210/Solution205.class" afterPath="$PROJECT_DIR$/bin/solution201to210/Solution205.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution201to210/Solution206.class" afterPath="$PROJECT_DIR$/bin/solution201to210/Solution206.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/Solution21.class" afterPath="$PROJECT_DIR$/bin/solution021to030/Solution21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution211to220/Solution213.class" afterPath="$PROJECT_DIR$/bin/solution211to220/Solution213.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution211to220/Solution217.class" afterPath="$PROJECT_DIR$/bin/solution211to220/Solution217.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution211to220/Solution219.class" afterPath="$PROJECT_DIR$/bin/solution211to220/Solution219.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution221to230/Solution223.class" afterPath="$PROJECT_DIR$/bin/solution221to230/Solution223.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution221to230/Solution225.class" afterPath="$PROJECT_DIR$/bin/solution221to230/Solution225.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/Solution23.class" afterPath="$PROJECT_DIR$/bin/solution021to030/Solution23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution231to240/Solution231.class" afterPath="$PROJECT_DIR$/bin/solution231to240/Solution231.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution231to240/Solution232.class" afterPath="$PROJECT_DIR$/bin/solution231to240/Solution232.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/Solution24.class" afterPath="$PROJECT_DIR$/bin/solution021to030/Solution24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/Solution26.class" afterPath="$PROJECT_DIR$/bin/solution021to030/Solution26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution021to030/Solution29.class" afterPath="$PROJECT_DIR$/bin/solution021to030/Solution29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution3.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution031to040/Solution31.class" afterPath="$PROJECT_DIR$/bin/solution031to040/Solution31.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution031to040/Solution33.class" afterPath="$PROJECT_DIR$/bin/solution031to040/Solution33.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution031to040/Solution34.class" afterPath="$PROJECT_DIR$/bin/solution031to040/Solution34.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution031to040/Solution35.class" afterPath="$PROJECT_DIR$/bin/solution031to040/Solution35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution4.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution5.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution051to060/Solution55.class" afterPath="$PROJECT_DIR$/bin/solution051to060/Solution55.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution051to060/Solution58.class" afterPath="$PROJECT_DIR$/bin/solution051to060/Solution58.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution051to060/Solution59.class" afterPath="$PROJECT_DIR$/bin/solution051to060/Solution59.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution061to070/Solution64.class" afterPath="$PROJECT_DIR$/bin/solution061to070/Solution64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution061to070/Solution66.class" afterPath="$PROJECT_DIR$/bin/solution061to070/Solution66.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution061to070/Solution67.class" afterPath="$PROJECT_DIR$/bin/solution061to070/Solution67.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution7.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution071to080/Solution73.class" afterPath="$PROJECT_DIR$/bin/solution071to080/Solution73.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution071to080/Solution74.class" afterPath="$PROJECT_DIR$/bin/solution071to080/Solution74.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution071to080/Solution75.class" afterPath="$PROJECT_DIR$/bin/solution071to080/Solution75.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution071to080/Solution78.class" afterPath="$PROJECT_DIR$/bin/solution071to080/Solution78.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution071to080/Solution80.class" afterPath="$PROJECT_DIR$/bin/solution071to080/Solution80.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution081to090/Solution89.class" afterPath="$PROJECT_DIR$/bin/solution081to090/Solution89.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/solution001to010/Solution9.class" afterPath="$PROJECT_DIR$/bin/solution001to010/Solution9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Util/TreeLinkNode.class" afterPath="$PROJECT_DIR$/bin/Util/TreeLinkNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Util/TreeNode.class" afterPath="$PROJECT_DIR$/bin/Util/TreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/solution261to270/Solution263.java" afterPath="$PROJECT_DIR$/src/solution261to270/Solution263.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/solution021to030/Solution30.java" afterPath="$PROJECT_DIR$/src/solution021to030/Solution30.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -23,46 +152,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution258.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution251to260/Solution258.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution242.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution241to250/Solution242.java">
+      <file leaf-file-name="Solution268.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution268.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution262.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution262.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution263.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution263.java">
+      <file leaf-file-name="Solution30.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/solution021to030/Solution30.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46952224">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.2839196">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -78,6 +182,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Liu Xinzhuo" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -92,6 +201,11 @@
         <option value="$PROJECT_DIR$/src/solution251to260/Solution258.java" />
         <option value="$PROJECT_DIR$/src/solution241to250/Solution242.java" />
         <option value="$PROJECT_DIR$/src/solution261to270/Solution263.java" />
+        <option value="$PROJECT_DIR$/src/solution231to240/Solution234.java" />
+        <option value="F:/VMCS/src/sg/edu/nus/iss/vmcs/Vmcs.java" />
+        <option value="$PROJECT_DIR$/src/solution271to280/Solution278.java" />
+        <option value="$PROJECT_DIR$/src/solution021to030/Solution30.java" />
+        <option value="$PROJECT_DIR$/src/solution261to270/Solution268.java" />
       </list>
     </option>
   </component>
@@ -127,8 +241,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solution261to270" />
+              <option name="myItemId" value="solution271to280" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,20 +306,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solution241to250" />
+              <option name="myItemId" value="solution261to270" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="F:/VMCS" />
     <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -374,28 +492,29 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -409,19 +528,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lxz&#10;&#10;1731&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="lxz&#10;&#10;1731&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/solution251to260/Solution258.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,17 +559,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution263.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46952224">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution251to260/Solution258.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution241to250/Solution242.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution262.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution263.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/VMCS/src/sg/edu/nus/iss/vmcs/Vmcs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution231to240/Solution234.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution271to280/Solution278.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution261to270/Solution268.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution021to030/Solution30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2839196">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

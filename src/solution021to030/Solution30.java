@@ -14,13 +14,8 @@ public class Solution30
 		return result;
 		int len = words[0].length();
 		HashMap<String,Integer> checkMap = new HashMap<String,Integer>();
-		
-	}
 
-	public static void main(String[] args)
-	{
-		// TODO Auto-generated method stub
-
+		return result;
 	}
 
 }
