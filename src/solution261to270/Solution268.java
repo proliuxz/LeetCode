@@ -9,6 +9,16 @@ package solution261to270;
  */
 public class Solution268 {
     public int missingNumber(int[] nums) {
-        return 0;
+        return findNumber(0,nums.length,nums);
+    }
+    public int findNumber(int begin,int end,int[] nums)
+    {
+        if (begin==end)
+            return nums[0];
+        int mid = (begin + end)/2;
+        if (mid==nums[mid])
+            return findNumber(mid+1,end,nums);
+        else
+            return findNumber(begin,mid,nums);
     }
 }
