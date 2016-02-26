@@ -7,7 +7,7 @@ public class Solution117
 
 	public void connect(TreeLinkNode root)
 	{
-	
+
 		
 	}
 
