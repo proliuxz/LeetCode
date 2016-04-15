@@ -8,4 +8,9 @@ public class Solution52 {
         int result = 0;
         return result;
     }
+    public boolean val(boolean[][] tempArray)
+    {
+
+        return false;
+    }
 }
