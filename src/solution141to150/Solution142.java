@@ -1,5 +1,7 @@
 package solution141to150;
 
+import Util.ListNode;
+
 import java.util.HashSet;
 
 public class Solution142

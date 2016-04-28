@@ -4,8 +4,18 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Show
+public final class Show
 {
+
+	public static void showListNode(ListNode listNode)
+	{
+		while (listNode!=null)
+		{
+			System.out.print(listNode.val+"->");
+			listNode = listNode.next;
+		}
+		System.out.println();
+	}
 	public static void showArray(int[] array)
 	{
 		if (array.length==0||array==null)

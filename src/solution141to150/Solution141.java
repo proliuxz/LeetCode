@@ -1,5 +1,7 @@
 package solution141to150;
 
+import Util.ListNode;
+
 import java.util.HashMap;
 
 public class Solution141
@@ -28,16 +30,4 @@ public class Solution141
 		System.out.println(s141.hasCycle(head));
 	}
 
-}
-
-class ListNode
-{
-	int val;
-	ListNode next;
-
-	ListNode(int x)
-	{
-		val = x;
-		next = null;
-	}
 }

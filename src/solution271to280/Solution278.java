@@ -17,16 +17,29 @@ public class Solution278 {
             else
                 return 0;
         }
-        int begin = 0;
-        int end = n;
-        int mid = begin+end;
-        return 0;
+        return firstBadVersionHelper(1,n);
+    }
+    public int firstBadVersionHelper(int left, int right)
+    {
+        if (left==right)
+            return left;
+        int mid = left/2+right/2;
+        if (isBadVersion(mid))
+        {
+            return firstBadVersionHelper(left,mid);
+        }
+        else
+            return firstBadVersionHelper(mid+1,right);
     }
     public boolean isBadVersion(int version)
     {
-        int n = version;
-        if(n>5)
-            return false;
-        return true;
+        if(version>=1702766719)
+            return true;
+        return false;
+    }
+    public static void main(String[] args)
+    {
+        Solution278 s278 = new Solution278();
+        System.out.println(s278.firstBadVersion(2126753390));
     }
 }

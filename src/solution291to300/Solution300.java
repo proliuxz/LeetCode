@@ -30,6 +30,7 @@ public class Solution300 {
         }
         return 0;
     }
+
     public int LIS(int[] nums, int n, int[] result)
     {
         int i,j;
