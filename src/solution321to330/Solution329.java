@@ -5,80 +5,53 @@ package solution321to330;
  */
 public class Solution329 {
     public int longestIncreasingPath(int[][] matrix) {
-        return 0;
+
+        int maxVal = 0;
+
+        for (int i = 0; i <matrix.length ; i++)
+        {
+            for (int j = 0; j <matrix[0].length ; j++)
+            {
+                boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+                int temp = longestIncreasingPathHelper(matrix, visited, i, j, matrix[i][j] - 1);
+                if (temp > maxVal)
+                {
+                    maxVal = temp;
+                }
+            }    
+        }
+        return maxVal;
+    }
+    public static int longestIncreasingPathHelper(int[][] matrix, boolean[][] visited, int i, int j, int prev)
+    {
+        if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length)
+            return 0;
+
+        if (visited[i][j] == true|| matrix[i][j] <= prev)
+            visited[i][j] = true;
+        int max1=0;
+        int max2=0;
+        int max3=0;
+        int max4=0;
+
+        if (visited[i+1][j]==false)
+        max1 = longestIncreasingPathHelper(matrix, visited, i + 1, j, matrix[i][j]);
+        if (visited[i-1][j]==false)
+        max2 = longestIncreasingPathHelper(matrix, visited, i - 1, j, matrix[i][j]);
+        if (visited[i][j+1]==false)
+        max3 = longestIncreasingPathHelper(matrix, visited, i, j + 1, matrix[i][j]);
+        if (visited[i][j-1]==false)
+        max4 = longestIncreasingPathHelper(matrix, visited, i, j - 1, matrix[i][j]);
+
+        visited[i][j] = false;
+
+        return Math.max(Math.max(max1,max2),Math.max(max3,max4)) + 1;
     }
 
     public static void main(String[] args)
     {
         Solution329 solution329 = new Solution329();
-        int[][] matrix = {{1,2,3},{4,5,6}};
-        System.out.println(solution329.nextStep(matrix,0,0));
-        System.out.println(solution329.nextStep(matrix,0,1));
-        System.out.println(solution329.nextStep(matrix,0,2));
-        System.out.println(solution329.nextStep(matrix,1,0));
-        System.out.println(solution329.nextStep(matrix,1,1));
-        System.out.println(solution329.nextStep(matrix,1,2));
-    }
-
-    public int cpL (int[][] matrix, int x, int y)
-    {
-        return matrix[x][y-1]>matrix[x][y]?nextStep(matrix,x,y-1)+1:0;
-    }
-
-    public int cpR (int[][] matrix, int x, int y)
-    {
-        return matrix[x][y+1]>matrix[x][y]?nextStep(matrix,x,y+1)+1:0;
-    }
-
-    public int cpU (int[][] matrix, int x, int y)
-    {
-        return matrix[x-1][y]>matrix[x][y]?nextStep(matrix,x-1,y)+1:0;
-    }
-
-    public int cpD (int[][] matrix, int x, int y)
-    {
-        return matrix[x+1][y]>matrix[x][y]?nextStep(matrix,x+1,y)+1:0;
-    }
-
-    public int nextStep(int[][] matrix,int x, int y)
-    {
-        int flag = 0;
-        if (x == 0)
-            flag += 1;
-        if (x ==matrix.length-1)
-            flag += 2;
-        if (y == 0)
-            flag += 4;
-        if (y == matrix[0].length-1)
-            flag += 8;
-
-        int result = 0;
-        switch (flag)
-        {
-            case  0:{
-                int temp1 = Math.max(cpU(matrix,x,y),cpD(matrix,x,y));
-                int temp2 = Math.max(cpL(matrix,x,y),cpR(matrix,x,y));
-                return Math.max(result,Math.max(temp1,temp2));
-            }
-            case  1:{
-                if (matrix[x][y]<matrix[x+1][y])
-                    result = Math.max(result,nextStep(matrix,x+1,y));
-                if (matrix[x][y]<matrix[x-1][y])
-                    result = Math.max(result,nextStep(matrix,x-1,y));
-                if (matrix[x][y]<matrix[x][y+1])
-                    result = Math.max(result,nextStep(matrix,1,y+1));
-                if (matrix[x][y]<matrix[x][y-1])
-                    result = Math.max(result,nextStep(matrix,x,y-1));
-                return result;
-            }
-            case  2:{}
-            case  4:{}
-            case  5:{}
-            case  6:{}
-            case  8:{}
-            case  9:{}
-            case 10:{}
-        }
-       return flag;
+        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println(solution329.longestIncreasingPath(matrix));
     }
 }

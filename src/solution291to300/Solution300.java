@@ -12,38 +12,21 @@ import sun.rmi.log.LogInputStream;
  */
 public class Solution300 {
     public int lengthOfLIS(int[] nums) {
-        int[] result = new int[nums.length];
-        LIS(nums,nums.length,result);
-        return result.length;
-    }
-    public int BinSearch(int key,int[] nums, int left, int right)
-    {
-        while (left<right)
+        if(nums==null||nums.length==0)
+            return 0;
+        int[] d = new int[nums.length];
+        d[0] = 1;
+        int max = 1;
+        for (int i = 1; i < nums.length ; i++)
         {
-            int mid = (left+right)>>1;
-            if (key>nums[mid] && key <=nums[mid+1])
-                return mid;
-            else if (key<nums[mid])
-                right = mid - 1;
-            else
-                left = mid + 1;
+            d[i] = 1;
+            for (int j = 0; j <i ; j++)
+            {
+                if (nums[i] > nums[j])
+                    d[i] = Math.max(d[i],d[j]+1);
+            }
+            max = Math.max(max,d[i]);
         }
-        return 0;
-    }
-
-    public int LIS(int[] nums, int n, int[] result)
-    {
-        int i,j;
-        result[1] = nums[1];
-        int len = 1;
-        for (i = 2;i<n; i++)
-        {
-            if (result[len]<nums[i])
-                j = ++len;
-            else
-                j = BinSearch(nums[i],result,1,len)+1;
-            result[j] = nums[j];
-        }
-        return len;
+        return max;
     }
 }

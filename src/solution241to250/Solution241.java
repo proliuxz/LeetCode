@@ -1,8 +1,9 @@
 package solution241to250;
 
+import Util.Show;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Sink;
 
 /**
  * Created by Liu Xinzhuo on 2016/4/28 0028.
@@ -45,8 +46,23 @@ public class Solution241 {
         List<Integer> left = new ArrayList<Integer>();
         List<Integer> right = new ArrayList<Integer>();
 
-        
-        return null;
+        for (int i = 0; i < input.length(); i++)
+        {
+            if (!Character.isDigit(input.charAt(i)))
+            {
+                left = diffWaysToCompute(input.substring(0,i));
+                right = diffWaysToCompute(input.substring(i+1,input.length()));
+
+                for (int j = 0; j < left.size() ; j++)
+                {
+                    for (int k = 0; k <right.size() ; k++)
+                    {
+                        result.add(computer(left.get(j),right.get(k),input.charAt(i)));
+                    }
+                }
+            }
+        }
+        return result;
     }
     public int computer(int a, int b, char opt)
     {
@@ -67,5 +83,10 @@ public class Solution241 {
         }
         return -1;
     }
+    public static void main(String[] args)
+    {
+        Solution241 s241 = new Solution241();
+        String input = "1+2+3";
+        Show.showListInt(s241.diffWaysToCompute(input));
+    }
 }
-5
