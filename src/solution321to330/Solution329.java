@@ -4,54 +4,50 @@ package solution321to330;
  * Created by Liu Xinzhuo on 2016/4/26 0026.
  */
 public class Solution329 {
+
+    public static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+
     public int longestIncreasingPath(int[][] matrix) {
-
-        int maxVal = 0;
-
-        for (int i = 0; i <matrix.length ; i++)
-        {
-            for (int j = 0; j <matrix[0].length ; j++)
-            {
-                boolean[][] visited = new boolean[matrix.length][matrix[0].length];
-                int temp = longestIncreasingPathHelper(matrix, visited, i, j, matrix[i][j] - 1);
-                if (temp > maxVal)
-                {
-                    maxVal = temp;
-                }
-            }    
-        }
-        return maxVal;
-    }
-    public static int longestIncreasingPathHelper(int[][] matrix, boolean[][] visited, int i, int j, int prev)
-    {
-        if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length)
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return 0;
+        }
 
-        if (visited[i][j] == true|| matrix[i][j] <= prev)
-            visited[i][j] = true;
-        int max1=0;
-        int max2=0;
-        int max3=0;
-        int max4=0;
+        int max = 0;
 
-        if (visited[i+1][j]==false)
-        max1 = longestIncreasingPathHelper(matrix, visited, i + 1, j, matrix[i][j]);
-        if (visited[i-1][j]==false)
-        max2 = longestIncreasingPathHelper(matrix, visited, i - 1, j, matrix[i][j]);
-        if (visited[i][j+1]==false)
-        max3 = longestIncreasingPathHelper(matrix, visited, i, j + 1, matrix[i][j]);
-        if (visited[i][j-1]==false)
-        max4 = longestIncreasingPathHelper(matrix, visited, i, j - 1, matrix[i][j]);
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[][] cache = new int[m][n]; // cache
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                max = Math.max(max, dfs(matrix, m, n, i, j, cache));
+            }
+        }
 
-        visited[i][j] = false;
+        return max;
+    }
 
-        return Math.max(Math.max(max1,max2),Math.max(max3,max4)) + 1;
+    private int dfs(int[][] matrix, int m, int n, int i, int j, int[][] cache) {
+        if (cache[i][j] != 0) return cache[i][j]; // cache
+
+        int max = 1;
+
+        for (int[] dir : dirs) {
+            int x = i + dir[0];
+            int y = j + dir[1];
+
+            if (x >= 0 && x < m && y >= 0 && y < n && matrix[x][y] < matrix[i][j]) {
+                max = Math.max(max, 1 + dfs(matrix, m, n, x, y, cache));
+            }
+        }
+
+        cache[i][j] = max;
+        return max;
     }
 
     public static void main(String[] args)
     {
         Solution329 solution329 = new Solution329();
-        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] matrix = null;
         System.out.println(solution329.longestIncreasingPath(matrix));
     }
 }
