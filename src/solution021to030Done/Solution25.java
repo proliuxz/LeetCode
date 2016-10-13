@@ -1,6 +1,7 @@
-package solution021to030;
+package solution021to030Done;
 
 import java.util.Stack;
+import Util.ListNode;
 
 public class Solution25
 {

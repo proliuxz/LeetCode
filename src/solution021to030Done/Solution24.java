@@ -1,5 +1,6 @@
-package solution021to030;
+package solution021to030Done;
 
+import Util.ListNode;
 
 public class Solution24
 {

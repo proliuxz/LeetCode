@@ -1,4 +1,4 @@
-package solution021to030;
+package solution021to030Done;
 
 import java.util.ArrayList;
 import java.util.List;
