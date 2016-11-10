@@ -15,10 +15,24 @@ public final class Show
 		}
 		System.out.println();
 	}
+	public static void showArray(double[] array)
+	{
+		if (array==null||array.length==0)
+		{
+			System.out.println("null");
+			return;
+		}
+		for (int i = 0 ; i < array.length;i++)
+			System.out.println(array[i]);
+	}
+
 	public static void showArray(int[] array)
 	{
-		if (array.length==0||array==null)
+		if (array==null||array.length==0)
+		{
 			System.out.println("null");
+			return;
+		}
 		for (int i = 0 ; i < array.length;i++)
 			System.out.println(array[i]);
 	}
@@ -63,6 +77,18 @@ public final class Show
 			System.out.println("null");
 		for (int i = 0 ; i < list.size();i++)
 			showListChar(list.get(i));
+	}
+
+	public  static void show(Interval i)
+	{
+		System.out.println(i.start+"-"+i.end);
+	}
+
+	public static void show(List<Interval> list)
+	{
+		for ( Interval interval: list) {
+			show(interval);
+		}
 	}
 
 }
