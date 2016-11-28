@@ -6,6 +6,7 @@ ehthumbs.db
 *.class
 
 #ide
+.idea/*
 
 # Folder config file
 Desktop.ini
