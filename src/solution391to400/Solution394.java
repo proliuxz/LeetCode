@@ -1,5 +1,7 @@
 package solution391to400;
 
+import java.util.Stack;
+
 /**
  * Created by Xinzhuo Liu on 10/25/2016.
  *
@@ -19,6 +21,31 @@ package solution391to400;
  */
 public class Solution394 {
     public String decodeString(String s) {
-        return null;
+        String ret = new String();
+        String tmp = new String();
+        Stack<Integer> s_num = new Stack<>();
+        Stack<String> s_str = new Stack<>();
+        int cnt = 0;
+        for (int i = 0; i < s.length(); ++i) {
+            char c = s.charAt(i);
+            if (c >= '0' && c <= '9') {
+                cnt = 10 * cnt + c - '0';
+            } else if (c == '[') {
+                s_num.push(cnt);
+                s_str.push(tmp);
+                cnt = 0;
+                tmp = new String();
+            } else if (c == ']') {
+                int k = s_num.peek();
+                s_num.pop();
+                for (int j = 0; j < k; ++j)
+                    s_str.push(s_str.pop() + tmp);
+                tmp = s_str.peek();
+                s_str.pop();
+            } else {
+                tmp += c;
+            }
+        }
+        return s_str.empty() ? tmp : s_str.peek();
     }
 }
