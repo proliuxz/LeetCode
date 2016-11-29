@@ -2,6 +2,7 @@ package solution331to340;
 
 import Util.TreeNode;
 
+
 /**
  * Created by Liu Xinzhuo on 2016/3/23 0023.
  */
@@ -22,6 +23,11 @@ public class Solution337 {
             dp[0] = Math.max(dp[1] ,dp_L[1] + dp_R[1] + root.val);
         }
         return dp;
+    }
+
+
+    public TreeNode getNode(int i) {
+        return i==0? null: new TreeNode(i);
     }
     public static void main(String[] args)
     {
