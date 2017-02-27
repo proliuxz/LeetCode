@@ -1,32 +1,17 @@
 package solution461to470;
 
-import java.util.List;
-
 /**
  * Created by Xinzhuo on 2016/11/29 0029.
  */
 public class Solution461 {
-    public boolean canPartition(int[] nums) {
-        if (nums==null||nums.length<2)
-            return false;
-        int sum = 0;
-        for (int x: nums
-             ) {
-            sum+=x;
-        }
-        if (sum%2!=0)
-            return false;
-        int half = sum/2;
-        return canPartitionHelper(half,0,nums);
+    public int hammingDistance(int x, int y) {
+        return Integer.bitCount(x^y);
     }
-
-    public boolean canPartitionHelper(int target, int pos, int[] nums){
-        if (pos>=nums.length)
-            return false;
-        if (target == nums[pos])
-            return true;
-        if (pos == nums.length)
-            return false;
-        return canPartitionHelper(target, pos+1, nums) || canPartitionHelper(target-nums[pos], pos+1,nums);
+    public static void main(String[] args)
+    {
+        int x = 1;
+        int y = 4;
+        Solution461 s461 = new Solution461();
+        s461.hammingDistance(x,y);
     }
 }

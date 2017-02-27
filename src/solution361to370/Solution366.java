@@ -1,3 +1,10 @@
+package solution361to370;
+
+import Util.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution366{
     public List<List<Integer>> findLeaves(TreeNode root) {
         List<List<Integer>> leavesList = new ArrayList< List<Integer>>();

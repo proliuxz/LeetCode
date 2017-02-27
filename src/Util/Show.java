@@ -91,4 +91,16 @@ public final class Show
 		}
 	}
 
+	public static void showArrays (int[][] arrays)
+	{
+		for (int[] arr: arrays
+			 ) {
+			for (int x: arr
+				 ) {
+				System.out.print(x+" ");
+			}
+			System.out.println();
+		}
+	}
+
 }
