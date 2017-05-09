@@ -8,8 +8,9 @@ public class Solution485 {
         int result = 0;
         if (nums == null || nums.length == 0)
             return result;
+        result = nums[0] == 0 ? 0 : 1;
         if (nums.length == 1)
-            return nums[0] == 0 ? 0 : 1;
+            return result;
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != 0) {
                 nums[i] = nums[i - 1] + 1;
