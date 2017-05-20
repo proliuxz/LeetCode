@@ -1,4 +1,4 @@
-package solution551to560;
+package solution551to600;
 
 /**
  * Created by Liu XZ on 2017/4/10.
@@ -10,7 +10,7 @@ public class Solution557 {
         for (int i = 0; i < temp.length-1 ; i++) {
             sb.append(new StringBuilder(temp[i]).reverse()+" ");
         }
-        sb.append(new StringBuilder(temp[temp.length-1]));
+        sb.append(new StringBuilder(temp[temp.length-1]).reverse());
         return sb.toString();
     }
 }
