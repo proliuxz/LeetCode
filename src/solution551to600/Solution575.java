@@ -1,4 +1,4 @@
-package solution571to580;
+package solution551to600;
 
 import java.util.HashSet;
 

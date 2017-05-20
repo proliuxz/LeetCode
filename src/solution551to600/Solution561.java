@@ -1,4 +1,4 @@
-package solution561to570;
+package solution551to600;
 
 import java.util.Arrays;
 
