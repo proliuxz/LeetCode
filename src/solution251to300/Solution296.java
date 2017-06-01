@@ -15,6 +15,36 @@ package solution251to300;
  */
 public class Solution296 {
     public int minTotalDistance(int[][] grid) {
-        return 0;
+        int[] h = new int[grid.length];
+        int[] w = new int[grid[0].length];
+        for (int i = 0; i < h.length ; i++) {
+            for (int j = 0; j <w.length ; j++) {
+                if (grid[i][j]==1)
+                {
+                    h[i]++;
+                    w[j]++;
+                }
+            }
+        }
+        return calc(h)+calc(w);
+    }
+
+    private int calc(int[] arr) {
+        int min = 0;
+        int dis = Integer.MAX_VALUE;
+        int len = arr.length;
+        for (int i = 0; i <len ; i++) {
+            int sum = 0;
+            for (int j = 0; j < len ; j++) {
+                sum += Math.abs(j-i)*arr[j];
+
+            }
+            if (sum<dis)
+            {
+                dis = sum;
+                min = i;
+            }
+        }
+        return dis;
     }
 }
