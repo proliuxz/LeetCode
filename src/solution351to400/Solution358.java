@@ -1,4 +1,4 @@
-package solution511to550;
+package solution351to400;
 
 import Util.TreeNode;
 

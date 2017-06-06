@@ -1,4 +1,4 @@
-package solution511to550;
+package solution501to550;
 
 /**
  * Created by Xinzhuo Liu on 5/12/2017.
