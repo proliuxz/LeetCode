@@ -8,25 +8,21 @@ import java.util.HashMap;
 public class Solution454 {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         HashMap<Integer, Integer> hm  = new HashMap();
-        int result = 0;
-        for (int x: A
+        for (int a : A
              ) {
-            if (hm.containsKey(x)){
-                hm.put(x,(hm.get(x)+1));
-            }
-            else{
-                hm.put(x,1);
+            for (int b: B
+                 ) {
+                hm.put(a+b,hm.getOrDefault(a+b,0)+1);
             }
         }
-        for (int b: B
+
+        int result = 0;
+        for (int c: C
              ) {
-            for (int c: C
+            for (int d: D
                  ) {
-                for (int d: D
-                     ) {
-                    if (hm.containsKey(0-b-c-d))
-                        result = result + hm.get(0-b-c-d);
-                }
+                int res = 0-c-d;
+                result += hm.getOrDefault(res,0);
             }
         }
         return result;
