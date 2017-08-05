@@ -4,9 +4,13 @@ package solution301to350;
  * Created by Xinzhuo on 2016/11/29 0029.
  */
 public class Solution348 {
-    int[][] records;
+    private int[] rows;
+    private int[] cols;
+    private int diagonal;
+    private int antiDiagonal;
     public Solution348(int n) {
-        records = new int[n][n];
+        rows = new int[n];
+        cols = new int[n];
     }
 
     /** Player {player} makes a move at ({row}, {col}).
@@ -18,10 +22,28 @@ public class Solution348 {
      1: Player 1 wins.
      2: Player 2 wins. */
     public int move(int row, int col, int player) {
-        return 0;
-    }
+        int toAdd = player == 1 ? 1 : -1;
+        rows[row] += toAdd;
+        cols[col] += toAdd;
+        if (row == col)
+        {
+            diagonal += toAdd;
+        }
+        if (col == (cols.length - row - 1))
+        {
+            antiDiagonal += toAdd;
+        }
 
-    public int check(){
+        int size = rows.length;
+
+        if (Math.abs(rows[row]) == size ||
+                Math.abs(cols[col]) == size ||
+                Math.abs(diagonal) == size  ||
+                Math.abs(antiDiagonal) == size)
+        {
+            return player;
+        }
+
         return 0;
     }
 }
