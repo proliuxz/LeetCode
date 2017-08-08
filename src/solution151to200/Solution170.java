@@ -1,25 +1,31 @@
 package solution151to200;
 
-import java.util.HashSet;
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 /**
  * Created by Xinzhuo Liu on 12/15/2016.
  */
 public class Solution170 {
-    HashSet<Integer> nums = new HashSet<>();
-    HashSet<Integer> pairs = new HashSet<>();
+    private List<Integer> list = new ArrayList<Integer>();
+    private Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
     public void add(int number) {
-        Iterator<Integer> iterator = nums.iterator();
-        while (iterator.hasNext())
-        {
-            pairs.add(iterator.next()+number);
+        if (map.containsKey(number)) map.put(number, map.get(number) + 1);
+        else {
+            map.put(number, 1);
+            list.add(number);
         }
-        nums.add(number);
     }
 
     public boolean find(int value) {
-        return pairs.contains(value);
+        for (int i = 0; i < list.size(); i++){
+            int num1 = list.get(i), num2 = value - num1;
+            if ((num1 == num2 && map.get(num1) > 1) || (num1 != num2 && map.containsKey(num2))) return true;
+        }
+        return false;
     }
 }

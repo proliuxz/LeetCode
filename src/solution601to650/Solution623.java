@@ -2,37 +2,33 @@ package solution601to650;
 
 import Util.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * Created by liu.xinzhou on 19/6/2017.
+ * Created by Liu XZ on 2017/7/12.
  */
 public class Solution623 {
     public TreeNode addOneRow(TreeNode root, int v, int d) {
-        List<TreeNode> cur = new ArrayList<TreeNode>();
-        cur.add(root);
-        helper(1,d,cur);
-        return new TreeNode(1);
-    }
-
-    public List<TreeNode> helper(int level,int target, List<TreeNode> cur) {
-        if (level == target)
-            return cur;
-        List next = new ArrayList();
-        for (TreeNode node: cur
-             ) {
-            if (node.left!=null)
-                next.add(node.left);
-
-            if (node.right!=null)
-                next.add(node.right);
+        if (d == 1) {
+            TreeNode n = new TreeNode(v);
+            n.left = root;
+            return n;
         }
-        return helper(level+1, target, next);
+        insert(v, root, 1, d);
+        return root;
     }
 
-    public static void main (String[] args) {
-        Solution623 s623 = new Solution623();
-        
+    public void insert(int val, TreeNode node, int depth, int n) {
+        if (node == null)
+            return;
+        if (depth == n - 1) {
+            TreeNode t = node.left;
+            node.left = new TreeNode(val);
+            node.left.left = t;
+            t = node.right;
+            node.right = new TreeNode(val);
+            node.right.right = t;
+        } else {
+            insert(val, node.left, depth + 1, n);
+            insert(val, node.right, depth + 1, n);
+        }
     }
 }
