@@ -9,17 +9,14 @@ import java.util.Comparator;
 public class Solution646 {
     public int findLongestChain(int[][] pairs) {
         Arrays.sort(pairs,this.IntArrayComparator);
-        return findLongestChainHelper(pairs,0,Integer.MIN_VALUE,0);
-    }
-
-    public int findLongestChainHelper(int[][] pairs, int pos, int tail, int result) {
-        for (int i = pos; i <pairs.length ; i++) {
-            if (pairs[i][0]>tail) {
-                return Math.max(findLongestChainHelper(pairs,i+1, pairs[i][1],result+1),
-                        findLongestChainHelper(pairs,i+1,tail,result));
+        int[] dp = new int[pairs.length];
+        Arrays.fill(dp, 1);
+        for (int i = 0; i < dp.length; i++) {
+            for (int j = 0; j < i; j++) {
+                dp[i] = Math.max(dp[i], pairs[i][0] > pairs[j][1]? dp[j] + 1 : dp[j]);
             }
         }
-        return result;
+        return dp[pairs.length - 1];
     }
 
     private static Comparator<int[]> IntArrayComparator = new Comparator<int[]>() {

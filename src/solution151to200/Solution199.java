@@ -48,7 +48,7 @@ public class Solution199 {
             }
             else
             {
-                // add the rightest to the answer
+                // addNode the rightest to the answer
                 if (queue.peek() == null)
                 {
                     result.add(node.val);
