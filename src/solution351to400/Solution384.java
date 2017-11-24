@@ -1,4 +1,4 @@
-package solution301to350;
+package solution351to400;
 
 import java.util.Random;
 
